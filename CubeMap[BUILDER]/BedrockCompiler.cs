@@ -46,7 +46,7 @@ namespace CubeMap_BUILDER_
             string[] fileLine = File.ReadAllLines(packNameFolder + "\\manifest.json");
             fileLine[4] = "\t\t\"name\": \"" + packName + "\",";
             fileLine[5] = "\t\t\"uuid\": \"" + uuid1 + "\",";
-            fileLine[13] = "\t\t\"uuid\": \"" + uuid2 + "\",";
+            fileLine[13] = "\t\t\t\"uuid\": \"" + uuid2 + "\",";
             File.WriteAllLines(packNameFolder + "\\manifest.json", fileLine);
 
             File.Move(cMapBuildFolder + "cubemap_0.png", packNameFolderFull + "cubemap_0.png");
