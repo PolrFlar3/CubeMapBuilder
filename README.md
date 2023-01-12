@@ -8,4 +8,5 @@ Skip steps 0-2 if you already have git LFS installed <br />
 2) install https://git-lfs.com/
 3) `$ git lfs install`
 4) `$ git clone https://github.com/PolrFlar3/CubeMapBuilder.git`
-5) open .sln in visual studio, click build
+5) run the `extract_assets.cmd` batch script
+6) open .sln in visual studio, click build
